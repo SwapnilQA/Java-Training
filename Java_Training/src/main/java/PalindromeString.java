@@ -28,7 +28,7 @@ public class PalindromeString {
 	}
 
 	/**
-	 * This method will check if the String is palindrome
+	 * This method will check if the String is palindrome.
 	 * @param str
 	 * @param reverseString
 	 * @return

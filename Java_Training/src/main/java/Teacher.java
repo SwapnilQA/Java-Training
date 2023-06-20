@@ -19,14 +19,14 @@ public class Teacher extends Person{
 	/**
 	 * 
 	 * @param department
-	 * This method will assign a value to Department 
+	 * This method will assign a value to Department.
 	 */
 	public void setDepartment(String department) {
 		this.department = department;
 	}
 	
 	/**
-	 * This method will assign a value to specialization
+	 * This method will assign a value to specialization.
 	 * @param specialization
 	 */
 	public void setSpecialization(String specialization) {
@@ -34,14 +34,14 @@ public class Teacher extends Person{
 	}
 	
 	/**
-	 * This method will return department
+	 * This method will return department.
 	 * @return
 	 */
 	public String getDepartment() {
 		return this.department;
 	}
 	/**
-	 * This method will return specialization
+	 * This method will return specialization.
 	 * @return
 	 */
 	public String getSpecialization() {

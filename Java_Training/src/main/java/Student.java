@@ -8,7 +8,7 @@ public class Student extends Person{
 	
 /**
  * This is a constructor it will initialize the value of Name, Age, Roll Number
- * course and department
+ * course and department.
  * @param name
  * @param age
  * @param rollNo
@@ -24,7 +24,7 @@ public class Student extends Person{
 	}
 	
 	/**
-	 * This method will assign a value to roll number
+	 * This method will assign a value to roll number.
 	 * @param rollNo
 	 */
 	public void setRollNo(int rollNo) {
@@ -32,7 +32,7 @@ public class Student extends Person{
 	}
 	
 	/**
-	 * This method will assign a value to course
+	 * This method will assign a value to course.
 	 * @param course
 	 */
 	public void setCourse(String course) {
@@ -41,7 +41,7 @@ public class Student extends Person{
 	
 	
 	/**
-	 * This method will assign a value to department
+	 * This method will assign a value to department.
 	 * @param department
 	 */
 	public void setdepartment(String department) {
@@ -49,7 +49,7 @@ public class Student extends Person{
 	}
 
 	/**
-	 * This method will return roll number
+	 * This method will return roll number.
 	 * @return
 	 */
 	public int getRollNo() {
@@ -57,7 +57,7 @@ public class Student extends Person{
 	}
 	
 	/**
-	 * This method will return course
+	 * This method will return course.
 	 * @return
 	 */
 	public String getCourse() {
@@ -65,7 +65,7 @@ public class Student extends Person{
 	}
 	
 	/**
-	 * This method will return department
+	 * This method will return department.
 	 * @return
 	 */
 	public String getdepartment() {
