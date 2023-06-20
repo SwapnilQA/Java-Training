@@ -1,39 +1,50 @@
 
 public class Teacher extends Person{
 	
-	private int rollNo;
-	private String course;
 	private String department;
+	private String specialization;
 
-	public Teacher(String name, int age, int rollNo, String course, String department) {
+	/**
+	 * @param name
+	 * @param age
+	 * @param department
+	 * @param specialization
+	 */
+	public Teacher(String name, int age, String department, String specialization) {
 		super(name, age);
-		this.course = course;
-		this.rollNo = rollNo;
 		this.department = department;
-		
-	}
-	
-	public void setRollNo(int rollNo) {
-		this.rollNo = rollNo;
-	}
-	
-	public void setCourse(String course) {
-		this.course = course;
-	}
-	
-	public void etdepartment(String department) {
-		this.department = department;
+		this.specialization = specialization;
 	}
 
-	public int getRollNo(int rollNo) {
-		return this.rollNo;
+	/**
+	 * 
+	 * @param department
+	 * This method will assign a value to Department 
+	 */
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 	
-	public String getCourse(String course) {
-		return this.course;
+	/**
+	 * This method will assign a value to specialization
+	 * @param specialization
+	 */
+	public void setSpecialization(String specialization) {
+		this.specialization = specialization;
 	}
 	
-	public String getdepartment(String department) {
+	/**
+	 * This method will return department
+	 * @return
+	 */
+	public String getDepartment() {
 		return this.department;
+	}
+	/**
+	 * This method will return specialization
+	 * @return
+	 */
+	public String getSpecialization() {
+		return this.specialization;
 	}
 }
