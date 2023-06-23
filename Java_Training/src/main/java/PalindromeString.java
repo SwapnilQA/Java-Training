@@ -7,21 +7,32 @@ public class PalindromeString {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		sc.close();
-		boolean is_palindrome = stringPalindrome(str, stringReverse(str));
-		System.out.println("String is palindrome "+ is_palindrome);
+		boolean isPalindrome = stringPalindrome(str, stringReverse(str));
+		System.out.println("String is palindrome "+ isPalindrome);
 	}
 
+	/**
+	 * This method will reverse the string
+	 * @param str
+	 * @return
+	 */
 	public static String stringReverse(String str) {
-		String tmp="";
+		StringBuffer tmp = new StringBuffer("");
 		
 		for(int i=str.length();i>0;i--) {
 			
-			tmp=tmp+str.charAt(i-1);
+			tmp=tmp.append(str.charAt(i-1));
 		}
 		
-		return tmp;
+		return tmp.toString();
 	}
 
+	/**
+	 * This method will check if the String is palindrome.
+	 * @param str
+	 * @param reverseString
+	 * @return
+	 */
 	public static boolean stringPalindrome(String str, String reverseString) {
 		
 		if(str.equalsIgnoreCase(reverseString)) {
